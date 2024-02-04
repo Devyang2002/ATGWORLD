@@ -1,0 +1,379 @@
+#navbarSupportedContent{
+    margin-left: 29vw;
+}
+
+#navbar-text{
+    margin-right: 2vw;
+}
+
+.navbar-brand{
+    margin-left: 2vw;
+}
+
+#searchspace{
+    height: 4.5vh;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+}
+
+#navbr{
+    height: 13vh;
+}
+#searchbtn{
+    height: 4.5vh;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 0.8vh;
+}
+
+.rectangle-1{
+    background-image: url("Rectangle 2.png");
+    /* width: 98.9vw; */
+    width: 98.8vw;
+    top: 13vh;
+    height: 440px;
+    position: absolute;
+    height: 440px;
+    color: aliceblue;
+}
+
+.lists{
+    border-bottom: 2px solid lightgray;
+    width: 85vw;
+    margin-left: 7vw;
+}
+
+.lists > ul {
+    margin-top: 68vh;
+    display: flex;
+}
+
+.lists > ul > li{
+    list-style: none;
+    margin-right: 5vw;
+}
+
+#Writepost{
+    margin-left: 27vw;
+    width: 14vw; 
+    height:40px;
+    background-color:lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1vh;
+    border-radius: 4px;
+}
+
+#joingroup{
+    margin-left: 2vw;
+    width: 20vw; 
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1vh;
+    border-radius: 4px;
+    background-color: #0d6efd;
+}
+
+#btnimg{
+    /* margin-top: 2.5vh;   */
+    margin-left: -1vw;
+
+
+}
+
+.maincontent{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 7vw;
+    width: 692px;
+    /* height: 200px; */
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.main12{
+    display: flex;
+    margin-top: 1vh;
+}
+
+#gimg{
+    margin-top: -2vh;
+    margin-left: 15vw;
+    font-weight: 1000;
+}
+
+.mainn{
+    display: flex;
+}
+
+.three{
+    display: flex;
+}
+
+.location{
+    display: flex;
+    position: absolute;
+    border-bottom: 1px solid lightgray;
+  right: 14vw;
+  /* margin-left: -; */
+  width: 20vw;
+  /* height: 120px; */
+}
+
+.loccon{
+    margin-top: 9vh;
+    display: flex;
+    position: absolute;
+    right: 14vw;
+  /* margin-left: -; */
+    width: 20vw;
+}
+
+#locconimg{
+    height: 2vh;
+    margin-top: 0.8vh;
+    margin-right: 0.5vw;
+    /* color: gray//; */
+}
+
+.header-desktop {
+    display: block;
+}
+
+.header-mobile {
+    display: none;
+}
+
+.header-tab{
+    display: block;
+}
+
+.mimg{
+    width: 690px;
+}
+
+.m2img{
+    width: 590px; 
+    background-color:white;
+    color:green; 
+    margin-left:2vw;
+     border-radius:4px;
+     border:1px solid lightgray;
+}
+
+.m3img{
+    width: 590px;
+     background-color:white;
+     color:red; 
+     margin-left:2vw; 
+     border-radius:4px;
+     border:1px solid lightgray;
+}
+
+#m4img{
+    margin-left: 50vw;
+     width:15vw;
+     border:1px solid lightgray;
+     height:5vh;
+     border-radius: 8px;
+     margin-top:-1vh;
+}
+
+ .overlay{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    transition: 1s;
+    opacity: 0;
+}
+.showoverlay{
+    opacity: 1;
+    z-index: 1;
+}
+
+.loginform{
+    /* display: flex; */
+    width:50vw; 
+    height: 65vh;
+     background-color: white;
+    padding: 20px;
+    position: absolute;
+    transition: 2s;
+    z-index: 9;
+    left: 50%;
+    top: -50%;
+    box-shadow: 0px 0px 10px 3px #ccc;
+    transform: translate(-50%,-50%);
+    border-radius: 7px;
+}
+
+.loginform1 > form{
+    display: flex;
+    flex-direction: column;
+}
+.loginform1 > form > div > input{
+    width: 20vw;
+    height: 5vh;
+    margin-bottom: 1vh;
+}
+
+.loginform1 > form >button{
+    width: 20vw;
+    height: 5vh;
+    background-color: white;
+    margin-bottom: 1vh;
+    border: 1px solid lightgray;
+}
+
+.loginform2{
+    position: absolute;
+    right: 0%;
+}
+
+.showloginform{
+    top: 50%;
+} 
+.loginform span{
+    /* margin-top: -20px;
+    margin-left: 50px; */
+    position: absolute;
+    right: -10px;
+    width: 50px;
+    color: black;
+    cursor: pointer;
+    top: 0px;
+} 
+
+#loginp{
+    width:50vw;
+    height:5vh;
+    color:green;
+    text-align:center;
+}
+
+
+@media (max-width: 1150px) {
+    .header-desktop {
+        display: none  !important;
+    }
+
+    .header-mobile {
+        display: block;
+    }
+
+    #navbr{
+        height: 5vh;
+    }
+    .rectangle-1{
+        background-image: url("Rectangle 2.png");
+        /* width: 98.9vw; */
+        width: 97.8vw;
+        top: 5vh;
+        height: 440px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* height: 440px; */
+        color: aliceblue;
+    }
+    .maincontent{
+        margin-left: 5vh;
+    }
+
+    #loginp{
+        width: 35vw;
+        margin-bottom: 7vh;
+    }
+
+    .loginform1 >form > h2{
+        margin-left: 5vw;
+    } 
+    .loginform1 > form > div > input{
+        width: 30vw;
+        margin-left: 2.5vw;
+    }
+    .loginform1 > form > button{
+        width: 30vw;
+        margin-left: 2.5vw;
+
+    }
+
+    .loginform{
+        width: 40vw;
+    }
+}
+
+@media (max-width: 720px) {
+    .header-desktop {
+        display: none  !important;
+    }
+
+    .header-mobile {
+        display: block;
+    }
+
+    #navbr{
+        height: 5vh;
+    }
+    .rectangle-1{
+        background-image: url("Rectangle 2.png");
+        /* width: 98.9vw; */
+        width: 96vw;
+        top: 5vh;
+        height: 440px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* height: 440px; */
+        color: aliceblue;
+    }
+    .maincontent{
+        margin-left: 5vh;
+        width: 85vw;
+    }
+    .mimg{
+        width: 85vw;
+    }
+
+    .m2img{
+        width: 75vw;
+    }
+    .m3img{
+        width: 75vw;
+    }
+    #m4img{
+        width: 10vw;
+        height: 8vh;
+        /* margin-left: 30vw; */
+
+    }
+    .header-tab{
+        display: none;
+    }
+
+    .loginform{
+        width: 50vw;
+        height: 55vh;
+    }
+
+    .loginform1 >form > h2{
+        margin-left: 3vw;
+    } 
+
+    .loginform1 > form > div > input{
+        width: 40vw;
+        margin-left: 1.5vw;
+    }
+    .loginform1 > form > button{
+        width: 40vw;
+        margin-left: 1.5vw;
+
+    }
+
+}
