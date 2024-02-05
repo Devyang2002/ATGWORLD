@@ -425,11 +425,11 @@
         width: 99vw;
     height: 64vh;
     margin-top: 24vh;
-    top:-58%;
+    top:-61%;
     /* transition: 2s; */
     }
     .showloginform{
-        top: 58%;
+        top: 61%;
     } 
 
     .loginform1 >form > h2{
